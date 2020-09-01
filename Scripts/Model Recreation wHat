@@ -1,0 +1,124 @@
+select -cl  ;
+polySphere -r 1 -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+// Result: pSphere1 polySphere1 // 
+move -r -os -wd 0 2 0 ;
+setKeyframe -breakdown 0 |pSphere1.translate;
+// Result: 3 // 
+setKeyframe -breakdown 0 -hierarchy none -controlPoints 0 -shape 0 {"pSphere1"};
+// Result: 10 // 
+scale -r 1.905018 1.905018 1.905018 ;
+autoKeyframe;
+// Result: 3 // 
+polySphere -r 1 -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+// Result: pSphere2 polySphere2 // 
+move -r -os -wd 0 4 0 ;
+scale -r 1.504747 1.504747 1.504747 ;
+polySphere -r 1 -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+// Result: pSphere3 polySphere3 // 
+move -r -os -wd 0 6 0 ;
+scale -r 1.082057 1.082057 1.082057 ;
+polyCone -r 1 -h 2 -sx 20 -sy 1 -sz 0 -ax 0 1 0 -rcp 0 -cuv 3 -ch 1;
+// Result: pCone1 polyCone1 // 
+scale -r 1 2.730282 1 ;
+scale -r 0.325776 0.325776 0.325776 ;
+rotate -r -os -fo 90 0 0 ;
+move -r -os -wd 0 -0.261667 -5.98522 ;
+move -r -os -wd 0 1.26341 0.0201528 ;
+scale -r 0.882763 0.882763 0.882763 ;
+scale -r 0.847773 0.847773 0.847773 ;
+polySphere -r 1 -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+// Result: pSphere4 polySphere4 // 
+scale -r 1 1 0.310905 ;
+scale -r 0.280222 0.280222 0.280222 ;
+move -r -os -wd 0 6.411424 0 ;
+scale -r 0.438059 0.438059 0.438059 ;
+move -r -os -wd 0 0 1.013773 ;
+move -r -os -wd -0.303115 0 0 ;
+move -r -os -wd 0 0 -0.0674794 ;
+move -r -os -wd -0.0130581 0 0 ;
+move -r -os -wd 0 -0.166262 0 ;
+move -r -os -wd -0.00318308 0 0 ;
+scale -r 1.333691 1.333691 1.333691 ;
+move -r -os -wd 0 0 0.0259188 ;
+move -r -os -wd 0 0 0.00863962 ;
+rotate -r -os -fo 0 -17.517931 0 ;
+scale -r 1 1 1.175097 ;
+move -r -os -wd -0.00443113 0 -0.0103272 ;
+move -r -os -wd 0.00401415 0 0.00935537 ;
+rotate -r -os -fo -11.283244 0 0 ;
+MirrorPolygonGeometry;
+polyMirrorFace  -cutMesh 1 -axis 0 -axisDirection 1 -mergeMode 1 -mergeThresholdType 0 -mergeThreshold 0.001 -mirrorAxis 1 -mirrorPosition 0 -smoothingAngle 30 -flipUVs 0 -ch 1 pSphere4;
+// Result: polyMirror1 // 
+setAttr "polyMirror1.mirrorAxis" 2;
+setAttr "polyMirror1.cutMesh" 0;
+polySphere -r 1 -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+// Result: pSphere5 polySphere5 // 
+scale -r 0.390182 0.390182 0.390182 ;
+scale -r 1 1 0.359989 ;
+scale -r 1 1 1.130751 ;
+scale -r 0.597403 0.597403 0.597403 ;
+duplicate -rr;
+// Result: pSphere6 //
+duplicate -rr;
+// Result: pSphere7 //
+move -r -os -wd 0 3.762831 0 ;
+move -r -os -wd 0 0 1.489953 ;
+move -r -os -wd 0 -0.16823 0 ;
+scale -r 0.778282 0.778282 0.778282 ;
+move -r -os -wd 0 0 -0.01401 ;
+rotate -r -os -fo 16.202156 0 0 ;
+select -r pSphere5 ;
+move -r -os -wd 0 1.813651 0 ;
+move -r -os -wd 0 2.167459 0 ;
+move -r -os -wd 0 0 1.608995 ;
+scale -r 0.75273 0.75273 0.75273 ;
+scale -r 0.968125 0.968125 0.968125 ;
+move -r -os -wd 0 0 -0.0805846 ;
+move -r -os -wd 0 0.171399 0 ;
+rotate -r -os -fo -3.932967 0 0 ;
+move -r -os -wd 0 0.000772774 -0.00780524 ;
+rotate -r -os -fo 1.920882 0 0 ;
+select -r pSphere6 ;
+move -r -os -wd 0 4.834138 0 ;
+move -r -os -wd 0 0 1.363053 ;
+move -r -os -wd 0 -0.183984 0 ;
+scale -r 0.75528 0.75528 0.75528 ;
+rotate -r -os -fo -18.997634 0 0 ;
+rotate -r -os -fo -8.207406 0 0 ;
+move -r -os -wd 0 -0.00528895 0.013675 ;
+move -r -os -wd 0 0.00674808 -0.000558242 ;
+move -r -os -wd 0 -0.000887141 0.00229378 ;
+scale -r 1 1 1.108428 ;
+select -r pSphere4.f[800:1199] ;
+doDelete;
+polyCylinder -r 1 -h 2 -sx 20 -sy 1 -sz 1 -ax 0 1 0 -rcp 0 -cuv 3 -ch 1;
+// pCylinder1 polyCylinder1 // 
+move -r -os -wd 0 7.20005 0 ;
+scale -r 0.869169 0.869169 0.869169 ;
+scale -r 1 0.691574 1 ;
+move -r -os -wd 0 0.120351 0 ;
+move -r -os -wd 0 -0.0155987 0 ;
+select -r pCylinder1.f[0:39] ;
+select -d pCylinder1.f[0:19] pCylinder1.f[40:59] ;
+doDelete;
+select -tgl pCylinder1.e[14] ;
+select -d pCylinder1.e[13] ;
+select -r pCylinder1.e[43] ;
+select -r pCylinder1.e[14] ;
+select -add pCylinder1.e[0:19] ;
+hilite pCylinder1.e[0:19] ;
+selectMode -component ;
+select -r pCylinder1.e[0:19] ;
+polyExtrudeEdge -constructionHistory 1 -keepFacesTogether 1 -pvx -1.036129663e-07 -pvy 6.703708579 -pvz -1.554194495e-07 -divisions 1 -twist 0 -taper 1 -offset 0 -thickness 0 -smoothingAngle 30 pCylinder1.e[0:19];
+// polyExtrudeEdge1 // 
+setAttr "polyExtrudeEdge1.localTranslate" -type double3 0 0 0.776591 ;
+setAttr "polyExtrudeEdge1.localTranslate" -type double3 0 0 0.612229 ;
+performPolyExtrude 0;
+select -r pCylinder1.e[82] pCylinder1.e[84] pCylinder1.e[86] pCylinder1.e[88] pCylinder1.e[90] pCylinder1.e[92] pCylinder1.e[94] pCylinder1.e[96] pCylinder1.e[98] pCylinder1.e[100] pCylinder1.e[102] pCylinder1.e[104] pCylinder1.e[106] pCylinder1.e[108] pCylinder1.e[110] pCylinder1.e[112] pCylinder1.e[114] pCylinder1.e[116] pCylinder1.e[118:119] ;
+polyExtrudeEdge -constructionHistory 1 -keepFacesTogether 1 -pvx 0 -pvy 6.703708579 -pvz -1.036129663e-07 -divisions 1 -twist 0 -taper 1 -offset 0 -thickness 0 -smoothingAngle 30 pCylinder1.e[82] pCylinder1.e[84] pCylinder1.e[86] pCylinder1.e[88] pCylinder1.e[90] pCylinder1.e[92] pCylinder1.e[94] pCylinder1.e[96] pCylinder1.e[98] pCylinder1.e[100] pCylinder1.e[102] pCylinder1.e[104] pCylinder1.e[106] pCylinder1.e[108] pCylinder1.e[110] pCylinder1.e[112] pCylinder1.e[114] pCylinder1.e[116] pCylinder1.e[118:119];
+// polyExtrudeEdge2 // 
+setAttr "polyExtrudeEdge2.localTranslate" -type double3 0 0 -0.0470833 ;
+performPolyExtrude 0;
+select -r pCylinder1.e[122] pCylinder1.e[124] pCylinder1.e[126] pCylinder1.e[128] pCylinder1.e[130] pCylinder1.e[132] pCylinder1.e[134] pCylinder1.e[136] pCylinder1.e[138] pCylinder1.e[140] pCylinder1.e[142] pCylinder1.e[144] pCylinder1.e[146] pCylinder1.e[148] pCylinder1.e[150] pCylinder1.e[152] pCylinder1.e[154] pCylinder1.e[156] pCylinder1.e[158:159] ;
+select -r pCylinder1.e[282] pCylinder1.e[284] pCylinder1.e[286] pCylinder1.e[288] pCylinder1.e[290] pCylinder1.e[292] pCylinder1.e[294] pCylinder1.e[296] pCylinder1.e[298] pCylinder1.e[300] pCylinder1.e[302] pCylinder1.e[304] pCylinder1.e[306] pCylinder1.e[308] pCylinder1.e[310] pCylinder1.e[312] pCylinder1.e[314] pCylinder1.e[316] pCylinder1.e[318:319] ;
+polyExtrudeEdge -constructionHistory 1 -keepFacesTogether 1 -pvx -1.554195285e-07 -pvy 6.65662786 -pvz -1.036130191e-07 -divisions 1 -twist 0 -taper 1 -offset 0 -thickness 0 -smoothingAngle 30 pCylinder1.e[282] pCylinder1.e[284] pCylinder1.e[286] pCylinder1.e[288] pCylinder1.e[290] pCylinder1.e[292] pCylinder1.e[294] pCylinder1.e[296] pCylinder1.e[298] pCylinder1.e[300] pCylinder1.e[302] pCylinder1.e[304] pCylinder1.e[306] pCylinder1.e[308] pCylinder1.e[310] pCylinder1.e[312] pCylinder1.e[314] pCylinder1.e[316] pCylinder1.e[318:319];
