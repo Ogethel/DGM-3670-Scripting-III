@@ -1,0 +1,9 @@
+string $name; //variable declaration
+int $age = 23; //initialize variable with value
+
+print($name);
+
+$name = "McKade";  //assigns the string  "Clayton" to the variable $name
+
+print ($name);
+print ($age);

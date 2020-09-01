@@ -1,0 +1,10 @@
+//Creating a macro script; Learn structure of Maya Comands
+polySphere -radius 2 -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+
+polySphere -q -radius "pSphere1"; //q = query (Spits out the value of the flag for object in "")
+polySphere -e -radius 5 "pSphere1"; //q = edit (Will edit the value of the flaged parameter for value after flage for object "")
+
+int $radsphere = 5;
+
+polySphere -radius $radsphere -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+move -r -os -wd 0 $radsphere 0 ;
