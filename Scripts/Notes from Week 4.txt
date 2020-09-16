@@ -1,0 +1,4 @@
+//We will focus on Programing in general
+//Assignment is due next tuestday
+We are going to talk about operators:
+Basic Opperators:

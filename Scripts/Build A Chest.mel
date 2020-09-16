@@ -1,0 +1,530 @@
+//Chestbottom
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+move -r -os -wd 0 0 -.6 ;
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+move -r -os -wd 0 0 -1.2 ;
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+move -r -os -wd 0 0 .6 ;
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+move -r -os -wd 0 0 1.2 ;
+//First Wall
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+rotate -r -os -fo 90 0 0 ;
+move -r -os -wd 0 1.56 0 ;
+move -r -os -wd 0 0 -.37 ;
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+rotate -r -os -fo 90 0 0 ;
+move -r -os -wd 0 1.56 0 ;
+move -r -os -wd 0 0 -.97 ;
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+rotate -r -os -fo 90 0 0 ;
+move -r -os -wd 0 1.56 0 ;
+move -r -os -wd 0 0 -1.57 ;
+//Second Wall
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+rotate -r -os -fo 90 0 0 ;
+move -r -os -wd 0 -1.56 0 ;
+move -r -os -wd 0 0 -.37 ;
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+rotate -r -os -fo 90 0 0 ;
+move -r -os -wd 0 -1.56 0 ;
+move -r -os -wd 0 0 -.97 ;
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+rotate -r -os -fo 90 0 0 ;
+move -r -os -wd 0 -1.56 0 ;
+move -r -os -wd 0 0 -1.57 ;
+//Curved Top 1
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+rotate -r -os -fo 90 0 0 ;
+move -r -os -wd 0 1.56 0 ;
+move -r -os -wd 0 0 -1.57 ;  
+move -r 0 0.6 0 ;
+move -r -os -wd 0 -0.08 0 ;
+rotate -r -os -fo -35 0 0 ;
+move -r 0 -0.015 -0.11 ;
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+rotate -r -os -fo 90 0 0 ;
+move -r -os -wd 0 -1.56 0 ;
+move -r -os -wd 0 0 -1.57 ;  
+move -r 0 0.6 0 ;
+move -r -os -wd 0 0.08 0 ;
+rotate -r -os -fo 35 0 0 ;
+move -r 0 -0.015 0.11 ;
+//Flat Top
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+move -r -os -wd 0 2.44 0 ;
+scale -r 1 1 3.9 ;
+//Side Planks
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+move -r -os -wd 0 2.44 0 ;
+scale -r 1 1 3.9 ;
+scale -r 1 1 1.32 ;
+move -r -os -wd 0 -0.869 0 ;
+scale -r 1 4.46 1 ;
+scale -r 1.08 1 1 ;
+//Make both sides at the same time
+select -r pCube15.e[2] ;
+hilite pCube15.e[2] ;
+selectMode -component ;
+select -r pCube15.e[0] ;
+select -tgl pCube15.e[1] ;
+select -tgl pCube15.e[2] ;
+select -tgl pCube15.e[3] ;
+polySplitRing -ch on -splitType 2 -divisions 2 -useEqualMultiplier 1 -smoothingAngle 30 -fixQuads 1 ;
+scale -r -p -1.35069e-07cm 1.572582cm 0cm 2.815702 1 1 ;
+select -d pCube15.e[14] pCube15.e[16] pCube15.e[18:19] pCube15.e[22] pCube15.e[24] pCube15.e[26:27] ;
+select -r pCube15.f[13] ;
+select -tgl pCube15.f[11] ;
+select -tgl pCube15.f[12] ;
+select -tgl pCube15.f[10] ;
+doDelete;
+select -r pCube15.e[21] ;
+select -tgl pCube15.e[20] ;
+select -tgl pCube15.e[23] ;
+select -tgl pCube15.e[22] ;
+select -add pCube15.e[20:23] ;
+performBridgeOrFill;
+polyCloseBorder -ch 1 pCube15.e[20:23];
+// Result: polyCloseBorder1 // 
+select -r pCube15.e[19] ;
+select -tgl pCube15.e[18] ;
+select -tgl pCube15.e[16] ;
+select -tgl pCube15.e[14] ;
+select -add pCube15.e[14] pCube15.e[16] pCube15.e[18:19] ;
+performBridgeOrFill;
+polyCloseBorder -ch 1 pCube15.e[14] pCube15.e[16] pCube15.e[18:19];
+// Result: polyCloseBorder2 // 
+//Next Plank
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+move -r -os -wd 0 2.44 0 ;
+scale -r 1 1 3.9 ;
+scale -r 1 1 1.32 ;
+move -r -os -wd 0 -0.869 0 ;
+scale -r 1 4.46 1 ;
+scale -r 1.08 1 1 ;
+move -r -os -wd 0 -0.6 0 ;
+//Make both sides at the same time
+select -r pCube16.e[2] ;
+hilite pCube16.e[2] ;
+selectMode -component ;
+select -r pCube16.e[0] ;
+select -tgl pCube16.e[1] ;
+select -tgl pCube16.e[2] ;
+select -tgl pCube16.e[3] ;
+polySplitRing -ch on -splitType 2 -divisions 2 -useEqualMultiplier 1 -smoothingAngle 30 -fixQuads 1 ;
+scale -r -p -1.35069e-07cm 1.572582cm 0cm 2.815702 1 1 ;
+select -d pCube16.e[14] pCube16.e[16] pCube16.e[18:19] pCube16.e[22] pCube16.e[24] pCube16.e[26:27] ;
+select -r pCube16.f[13] ;
+select -tgl pCube16.f[11] ;
+select -tgl pCube16.f[12] ;
+select -tgl pCube16.f[10] ;
+doDelete;
+select -r pCube16.e[21] ;
+select -tgl pCube16.e[20] ;
+select -tgl pCube16.e[23] ;
+select -tgl pCube16.e[22] ;
+select -add pCube16.e[20:23] ;
+performBridgeOrFill;
+polyCloseBorder -ch 1 pCube16.e[20:23];
+// Result: polyCloseBorder1 // 
+select -r pCube16.e[19] ;
+select -tgl pCube16.e[18] ;
+select -tgl pCube16.e[16] ;
+select -tgl pCube16.e[14] ;
+select -add pCube16.e[14] pCube16.e[16] pCube16.e[18:19] ;
+performBridgeOrFill;
+polyCloseBorder -ch 1 pCube16.e[14] pCube16.e[16] pCube16.e[18:19];
+// Result: polyCloseBorder2 // 
+//Next Plank 2
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+move -r -os -wd 0 2.44 0 ;
+scale -r 1 1 3.9 ;
+scale -r 1 1 1.32 ;
+move -r -os -wd 0 -0.869 0 ;
+scale -r 1 4.46 1 ;
+scale -r 1.08 1 1 ;
+move -r -os -wd 0 -1.2 0 ;
+//Make both sides at the same time
+select -r pCube17.e[2] ;
+hilite pCube17.e[2] ;
+selectMode -component ;
+select -r pCube17.e[0] ;
+select -tgl pCube17.e[1] ;
+select -tgl pCube17.e[2] ;
+select -tgl pCube17.e[3] ;
+polySplitRing -ch on -splitType 2 -divisions 2 -useEqualMultiplier 1 -smoothingAngle 30 -fixQuads 1 ;
+scale -r -p -1.35069e-07cm 1.572582cm 0cm 2.815702 1 1 ;
+select -d pCube17.e[14] pCube17.e[16] pCube17.e[18:19] pCube17.e[22] pCube17.e[24] pCube17.e[26:27] ;
+select -r pCube17.f[13] ;
+select -tgl pCube17.f[11] ;
+select -tgl pCube17.f[12] ;
+select -tgl pCube17.f[10] ;
+doDelete;
+select -r pCube17.e[21] ;
+select -tgl pCube17.e[20] ;
+select -tgl pCube17.e[23] ;
+select -tgl pCube17.e[22] ;
+select -add pCube17.e[20:23] ;
+performBridgeOrFill;
+polyCloseBorder -ch 1 pCube17.e[20:23];
+// Result: polyCloseBorder1 // 
+select -r pCube17.e[19] ;
+select -tgl pCube17.e[18] ;
+select -tgl pCube17.e[16] ;
+select -tgl pCube17.e[14] ;
+select -add pCube17.e[14] pCube17.e[16] pCube17.e[18:19] ;
+performBridgeOrFill;
+polyCloseBorder -ch 1 pCube17.e[14] pCube17.e[16] pCube17.e[18:19];
+// Result: polyCloseBorder2 // 
+
+// Top Side Plank
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube1 polyCube1 // 
+scale -r 1 0.280926 1 ;
+scale -r 1 1 0.574009 ;
+scale -r 5.378156 1 1 ;
+scale -r 1 0.455247 1 ;
+scale -r 0.8427 1 1 ;
+move -r -os -wd 0 2.44 0 ;
+scale -r 1 1 3.9 ;
+scale -r 1 1 1.32 ;
+move -r -os -wd 0 -0.869 0 ;
+scale -r 1 4.46 1 ;
+scale -r 1.08 1 1 ;
+move -r -os -wd 0 0.6 0 ;
+//Make both sides at the same time
+select -r pCube18.e[7] ;
+select -tgl pCube18.e[6] ;
+move -r -os -wd 0 -0.113475 0 ;
+select -r pCube18.e[2] ;
+select -tgl pCube18.e[1] ;
+scale -r -p 0cm 2.342721cm 0cm 1 1 0.755556 ;
+select -r pCube18.e[0] ;
+select -tgl pCube18.e[3] ;
+scale -r -p 0cm 1.885804cm 0cm 1 1 0.966667 ;
+scale -r 1 1 1.022222 ;
+select -r pCube18.e[2] ;
+hilite pCube18.e[2] ;
+selectMode -component ;
+select -r pCube18.e[0] ;
+select -tgl pCube18.e[1] ;
+select -tgl pCube18.e[2] ;
+select -tgl pCube18.e[3] ;
+polySplitRing -ch on -splitType 2 -divisions 2 -useEqualMultiplier 1 -smoothingAngle 30 -fixQuads 1 ;
+scale -r -p -1.35069e-07cm 1.572582cm 0cm 2.815702 1 1 ;
+select -d pCube18.e[14] pCube18.e[16] pCube18.e[18:19] pCube18.e[22] pCube18.e[24] pCube18.e[26:27] ;
+select -r pCube18.f[13] ;
+select -tgl pCube18.f[11] ;
+select -tgl pCube18.f[12] ;
+select -tgl pCube18.f[10] ;
+doDelete;
+select -r pCube18.e[21] ;
+select -tgl pCube18.e[20] ;
+select -tgl pCube18.e[23] ;
+select -tgl pCube18.e[22] ;
+select -add pCube18.e[20:23] ;
+performBridgeOrFill;
+polyCloseBorder -ch 1 pCube18.e[20:23];
+// Result: polyCloseBorder1 // 
+select -r pCube18.e[19] ;
+select -tgl pCube18.e[18] ;
+select -tgl pCube18.e[16] ;
+select -tgl pCube18.e[14] ;
+select -add pCube18.e[14] pCube18.e[16] pCube18.e[18:19] ;
+performBridgeOrFill;
+polyCloseBorder -ch 1 pCube18.e[14] pCube18.e[16] pCube18.e[18:19];
+// Result: polyCloseBorder2 // 
+
+//Bottom Rails
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+// Result: pCube19 polyCube19 // 
+select -r pCube19.e[0:4] pCube19.e[6] pCube19.e[8] pCube19.e[10] ;
+select -tgl pCube19.e[0:3] pCube19.e[5] pCube19.e[7] pCube19.e[9] pCube19.e[11] ;
+scale -r -p 0cm 0cm 0cm 1 1 1 ;
+scale -r -p 0cm 0cm 0cm 4.933333 1 1 ;
+select -r pCube19.e[1:2] pCube19.e[4:9] ;
+select -tgl pCube19.e[4:5] pCube19.e[8:9] ;
+move -r -os -wd 0 0.767456 0 ;
+select -r pCube19.e[0] pCube19.e[3:5] pCube19.e[8:11] ;
+select -tgl pCube19.e[4:5] pCube19.e[8:9] ;
+move -r -os -wd 0 0.419929 0 ;
+select -r pCube19.e[2:3] pCube19.e[6:11] ;
+select -tgl pCube19.e[0:1] pCube19.e[4:7] pCube19.e[10:11] ;
+scale -r -p 0cm 0.6cm 0cm 1 1 3.266667 ;
+select -r pCube19.e[0:3] ;
+polySplitRing -ch on -splitType 2 -divisions 2 -useEqualMultiplier 1 -smoothingAngle 30 -fixQuads 1 ;
+// Result: polySplitRing5 // 
+select -r pCube19.e[0:3] pCube19.e[20:27] ;
+select -tgl pCube19.e[12:21] pCube19.e[23] pCube19.e[25] ;
+select -tgl pCube19.e[12:13] pCube19.e[15] pCube19.e[17] ;
+select -tgl pCube19.e[0:3] ;
+scale -r -p -1.19209e-07cm 0.593693cm 0cm 2.566667 1 1 ;
+select -r pCube19.e[6:7] pCube19.e[10:11] pCube19.e[16] pCube19.e[19] pCube19.e[24] pCube19.e[27] ;
+polySplitRing -ch on -splitType 2 -divisions 2 -useEqualMultiplier 1 -smoothingAngle 30 -fixQuads 1 ;
+scale -r -p 0cm 0.593693cm 1.19209e-07cm 1 1 2.5 ;
+select -r pCube19.f[28] ;
+polyExtrudeFacet -constructionHistory 1 -keepFacesTogether 1 -pvx -2.384185791e-07 -pvy 1.267456055 -pvz 1.192092896e-07 -divisions 1 -twist 0 -taper 1 -off 0 -thickness 0 -smoothingAngle 30 pCube19.f[28];
+// Result: polyExtrudeFace1 // 
+setAttr "polyExtrudeFace1.localTranslate" -type double3 0 0 -1.032459 ;
+select -d pCube19.f[28] ;
+select -d pCube19.f[28] ;
+select -r pCube19.e[4] ;
+select -tgl pCube19.e[46] ;
+select -tgl pCube19.e[30] ;
+select -tgl pCube19.e[8] ;
+select -tgl pCube19.e[26] ;
+select -tgl pCube19.e[18] ;
+select -tgl pCube19.e[9] ;
+select -tgl pCube19.e[38] ;
+select -tgl pCube19.e[54] ;
+select -tgl pCube19.e[5] ;
+select -tgl pCube19.e[14] ;
+select -tgl pCube19.e[22] ;
+select -r pCube19.e[4:5] pCube19.e[8:9] pCube19.e[14] pCube19.e[18] pCube19.e[22] pCube19.e[26] pCube19.e[30] pCube19.e[38] pCube19.e[46] pCube19.e[54] ;
+polySplitRing -ch on -splitType 1 -weight 0.828093 -smoothingAngle 30 -fixQuads 1 -insertWithEdgeFlow 0 ;
+// Result: polySplitRing7 // 
+select -r pCube19.e[61] ;
+select -tgl pCube19.e[60] ;
+select -tgl pCube19.e[63] ;
+select -tgl pCube19.e[65] ; 
+hilite pCube19.e[60:61] pCube19.e[63] pCube19.e[65] ;
+selectMode -component ;
+select -r pCube19.e[60:61] pCube19.e[63] pCube19.e[65] ;
+polySplitRing -ch on -splitType 1 -weight 0.207439 -smoothingAngle 30 -fixQuads 1 -insertWithEdgeFlow 0 ;
+// Result: polySplitRing8 // 
+select -r pCube19.e[79] ;
+select -tgl pCube19.e[77] ;
+select -tgl pCube19.e[75] ;
+select -tgl pCube19.e[73] ;
+select -tgl pCube19.e[71] ;
+select -tgl pCube19.e[69] ;
+select -tgl pCube19.e[4] ;
+select -tgl pCube19.e[22] ;
+select -tgl pCube19.e[14] ;
+select -tgl pCube19.e[5] ;
+select -tgl pCube19.e[54] ;
+select -tgl pCube19.e[38] ;
+select -r pCube19.e[5] pCube19.e[38] pCube19.e[54] pCube19.e[79] ;
+select -r pCube19.e[4:5] pCube19.e[14] pCube19.e[22] pCube19.e[38] pCube19.e[54] pCube19.e[69] pCube19.e[71] pCube19.e[73] pCube19.e[75] pCube19.e[77] pCube19.e[79] ;
+polySplitRing -ch on -splitType 1 -weight 0.279676 -smoothingAngle 30 -fixQuads 1 -insertWithEdgeFlow 0 ;
+// Result: polySplitRing9 // 
+select -r pCube19.f[57] ;
+select -tgl pCube19.f[60] ;
+select -tgl pCube19.f[24] ;
+select -tgl pCube19.f[51] ;
+select -tgl pCube19.f[54] ;
+select -tgl pCube19.f[48] ;
+select -tgl pCube19.f[47] ;
+select -tgl pCube19.f[49] ;
+select -tgl pCube19.f[46] ;
+doDelete;
+select -r pCube19.e[84] ;
+select -tgl pCube19.e[94] ;
+performBridgeOrFill;
+
+select -r pCube19.e[112] ;
+select -tgl pCube19.e[66] ;
+performBridgeOrFill;
+
+select -r pCube19.e[106] ;
+select -tgl pCube19.e[67] ;
+performBridgeOrFill;
+
+select -r pCube19.e[78] ;
+select -tgl pCube19.e[93] ;
+performBridgeOrFill;
+
+select -r pCube19.e[100] ;
+select -tgl pCube19.e[62] ;
+performBridgeOrFill;
+
+select -r pCube19.e[72] ;
+select -tgl pCube19.e[92] ;
+performBridgeOrFill;
+
+select -r pCube19.e[118] ;
+select -tgl pCube19.e[64] ;
+performBridgeOrFill;
+
+select -r pCube19.e[90] ;
+select -tgl pCube19.e[95] ;
+performBridgeOrFill;
+
+select -r pCube19.e[122] ;
+select -tgl pCube19.e[120] ;
+performBridgeOrFill;
+
+select -r pCube19.e[123] ;
+select -tgl pCube19.e[121] ;
+performBridgeOrFill;
+
+select -r pCube19.e[122] ;
+select -tgl pCube19.e[120] ;
+performBridgeOrFill;
+
+select -r pCube19.e[123] ;
+select -tgl pCube19.e[121] ;
+performBridgeOrFill;
+
+select -r pCube19.e[124] ;
+select -tgl pCube19.e[126] ;
+performBridgeOrFill;
+
+select -r pCube19.e[125] ;
+select -tgl pCube19.e[127] ;
+performBridgeOrFill;
+
+select -r pCube19.e[128] ;
+select -tgl pCube19.e[130] ;
+performBridgeOrFill;
+
+select -r pCube19.e[129] ;
+select -tgl pCube19.e[131] ;
+performBridgeOrFill;
+
+select -r pCube19.e[132] ;
+select -tgl pCube19.e[134] ;
+performBridgeOrFill;
+
+select -r pCube19.e[133] ;
+select -tgl pCube19.e[135] ;
+performBridgeOrFill;
+ 
+select -r pCube19.f[27] ;
+doDelete;
+select -r pCube19.e[62] ;
+select -tgl pCube19.e[31] ;
+performBridgeOrFill;
+
+select -r pCube19.e[67] ;
+select -tgl pCube19.e[34] ;
+performBridgeOrFill;
+
+select -r pCube19.e[66] ;
+select -tgl pCube19.e[33] ;
+performBridgeOrFill;
+
+select -r pCube19.e[64] ;
+select -tgl pCube19.e[50] ;
+performBridgeOrFill;
+
+
+//Top Rails
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+select -r pCube20.e[0:4] pCube20.e[6] pCube20.e[8] pCube20.e[10] ;
+select -tgl pCube20.e[0:3] pCube20.e[5] pCube20.e[7] pCube20.e[9] pCube20.e[11] ;
+scale -r -p 0cm 0cm 0cm 1 1 1 ;
+scale -r -p 0cm 0cm 0cm 4.933333 1 1 ;
+select -r pCube20.e[1:2] pCube20.e[4:9] ;
+select -tgl pCube20.e[4:5] pCube20.e[8:9] ;
+move -r -os -wd 0 0.767456 0 ;
+select -r pCube20.e[0] pCube20.e[3:5] pCube20.e[8:11] ;
+select -tgl pCube20.e[4:5] pCube20.e[8:9] ;
+move -r -os -wd 0 0.419929 0 ;
+select -r pCube20.e[2:3] pCube20.e[6:11] ;
+select -tgl pCube20.e[0:1] pCube20.e[4:7] pCube20.e[10:11] ;
+scale -r -p 0cm 0.6cm 0cm 1 1 3.266667 ;
+select -r pCube20.e[0:3] ;

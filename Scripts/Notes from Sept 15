@@ -1,0 +1,126 @@
+//Create a Calculator
+
+//Assingment: Create four functions: Add, Subtract, Multiply, Divide
+
+/* 
+
+Functions and Procedures
+
+Proc - declare a function
+
+Proc void AddValues()
+{
+//Code Block
+}
+
+Maya Functions
+
+sl list flag will return everyting in the scene
+
+Clayton has a function that allows for him to either do the operation on selected or on a specific object and it is written as a function
+
+Proc SayHello() //Variable data type
+{
+//code block
+---------
+---------
+---------
+---------
+}
+Method is a function contained within a class (Same thing) 
+
+
+
+*/
+
+
+proc SayHello()
+{
+	print ("Hello World");
+	float $num1 = 5.3;
+	float $num2 = 3.6;
+	print ($num1 + $num2); 
+	print ("/nThat's what you get when you add " + $num1 + " and " + $num2 + "!!!"); //Catination, this is not actually adding them together
+	
+}
+
+// Maya views \ as an operator. \n = new line \t = tab \\ = print \
+
+SayHello();
+
+/*
+In Maya's Editor, the proc function will remember the orignial value input into memory whenever the function is called.  If things are changed, to get the editor to figure that out, you must:
+Have Maya run the code defining the function again and then call the function and the changes will take hold
+*/
+
+/* 
+Functions are really useful because they allow you to add in argumnets:
+
+Arguments = "Variables used within the function"
+
+Basic Blue Print
+
+Proc SayHello(string $Person //Defining my Arguments //Arguments  ) 
+{
+//code block //Scope for Arguments is within the {} 
+---------
+Print ($Person); //For Example
+---------
+Do things w/ Args
+---------
+---------
+}
+
+
+*/
+
+global string $guy = "Dude";
+
+proc AddNumbers(float $num1, float $num2)
+{
+	print ($num1 + $num2); 
+	print ("/nThat's what you get when you add " + $num1 + " and " + $num2 + "!!!"); //Catination, this is not actually adding them together
+	
+	float $sum;
+	$num = $sum1 + $num2;
+	
+	return $sum;
+}
+
+//"/nThat's what you get when you add " + $num1 + " and " + $num2 + "!!!"
+
+AddNumbers(34.5, 43);
+AddNumbers(2,2);
+
+
+// Maya views \ as an operator. \n = new line \t = tab \\ = print \
+
+
+proc Average(float $values[])
+{	
+	//add all of the numbers in the array
+	float $arreySum = $values;
+	//divide by the number of the values in the array
+	// - len()
+	//Return the value
+}
+
+Average([34,25,46,12,34,53]);
+
+
+//Assignments: 
+Average
+Mean
+Mode 
+
+
+
+
+
+
+
+
+
+
+
+
