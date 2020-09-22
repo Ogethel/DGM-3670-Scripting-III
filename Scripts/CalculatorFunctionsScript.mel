@@ -18,13 +18,13 @@ print $something;
 
 //Subtraction Function
 
-proc float Sub(float $numbers[]) //3,5,2
+proc float Sub(float $numbers[])
 {
 	float $diff = $numbers[0];
 	
-	for($i=1; $i<size($numbers); $i++)//Powers could be represented using a for loop
+	for($i=1; $i<size($numbers); $i++)
 	{
-		$diff -= $numbers[$i]; //Sum becomes 3, then 8, then
+		$diff -= $numbers[$i]; 
 	}
 	return $diff;
 }
@@ -35,13 +35,13 @@ Sub({100, 20, 49});
 
 //Multiplication Function
 
-proc float Mult(float $numbers[]) //3,5,2
+proc float Mult(float $numbers[])
 {
 	float $product = 1;
 	
-	for($i=0; $i<size($numbers); $i++)//Powers could be represented using a for loop
+	for($i=0; $i<size($numbers); $i++)
 	{
-		$product *= $numbers[$i]; //Sum becomes 3, then 8, then
+		$product *= $numbers[$i]; 
 	}
 	return $product;
 }
@@ -50,13 +50,13 @@ Mult({5, 5, 5});
 
 //Division Function
 
-proc float Div(float $numbers[]) //3,5,2
+proc float Div(float $numbers[]) 
 {
 	float $rem = $numbers[0];
 	
-	for($i=1; $i<size($numbers); $i++)//Powers could be represented using a for loop
+	for($i=1; $i<size($numbers); $i++)
 	{
-		$rem /= $numbers[$i]; //Sum becomes 3, then 8, then
+		$rem /= $numbers[$i]; 
 	}
 	return $rem;
 }
@@ -100,7 +100,8 @@ proc float Power(float $numbers[])
 	
 	return $product;
 }
-//Must be an even list
+//Must be an even list that you input into Power();
+
 Power({3, 5, 2, 4});
 
 //Average/Mean Function
