@@ -1,0 +1,157 @@
+My To Do list (In code :D)
+/*Checked off = [X]*/
+
+/*Assignments Presently in Focus*/
+
+-Interview with Advisor for next few semesters
+-Get the Pitch Document together for Forensics {Friday Sept. 18th}
+-Code a Calculator(It needs to be able to) {Monday Sept. 21st}
+-Render & Model Sid's Toy {Close to Oct 8th}
+-Read Page 44-66 {Sunday Sept 20th}
+-Assignment: Building a Requirements Sheet {Sunday Sept. 20th}
+-call about the blinds
+-Finish Resume
+-Send to Will's Job
+-Send to Walmart?
+-Schedule Endowment Session
+-Schedule Sealing Date
+
+School UVU
+
+Marty
+-Get the Pitch Document together for Forensics {Friday Sept. 18th}
+
+Clayton
+-Code a Calculator(It needs to be able to) {Monday Sept. 21st}
+{
+	-Sum
+	-Difference
+	-Mulitiplication
+	-Division
+	-Power (x raised power n)
+	-Mean (or Average)
+	-Median
+	-Mode
+}
+
+Rodayne
+-Render & Model Sid's Toy {Close to Oct 8th}
+-Do some Thumbnails to add to my submission for "Character Design: Thumbnails, Background Story, Finished Rough, Color Studies" {Overdue}
+-Disney Essay {Oct 1st}
+
+Project Management
+
+-Read Page 44-66 {Sunday Sept 20th}
+-Assignment: Building a Requirements Sheet {Sunday Sept. 20th}
+//Week 5
+-Assignment: Create a Proposal {Sep 27}
+-Quiz: Requirements and Helping Meet the Client's Goals {Sep 27th}
+-Discussion: Master Presenters {Sep 27th}
+//Week 6
+-Assignment: Write 3 Beautiful Emails {Oct 4th}
+-Readings: Pages 194-211 (all of Chapter 10) {Oct 4th}
+-Discussion: Email Etiquette {Oct 4th}
+-Quiz: Email and Not Being "That Person" {Oct 4th}
+//Week 7 
+-Assignment: Empathy {Oct 11th}
+-Discussion: From the Experts {Oct 11th}
+-Quiz: Industry Experts {Oct 11th}
+//Week 8
+-Assignment: Pre-Meeting Planning {Oct 18th}
+-Discussion: To Meet or Not To Meet {Oct 18th}
+//Week 9
+-Reading: Pages 260-277 (all of Chapter 13){Oct 25th}
+-Discussion: Is Agile Still Relevant Today? {Oct 25th}
+-Quiz: Meetings and Agile {Oct 25th}
+//Week 10
+-Assignment: Identify a Pivot {Nov 1st}
+-Discussion: Pivoting {Nov 1st}
+-Quiz: Pivoting {Nov 1st}
+//Week 11
+-Readings: Pages 242-246 (First Part of Chapter 12) {Nov 8th}
+-Assignment: Interview a Boss/Manager {Nov 8th}
+-Discussion: From Your Interviews, Qualities in Leadership {Nov 8th}
+-Quiz: An Introduction Into Leadership {Nov 8th}
+//Week 12
+-Discussion: Leadership Trust {Nov 15th}
+-Quiz: Reflection on Jiro's Leadership Style {Nov 15th}
+//Week 13
+-Discussion: Leadership Styles {Nov 22}
+-Quiz: Leadership Part III {Nov 22}
+//Week 15
+-20 Points Extra Credit Opportunity: SRI's/Feedback {Dec 13th}
+-Final Project: Give a Video Presentation{Dec 17th}
+//Week 16
+-Quiz: Project Management Recap {Dec 17th}
+
+/*Projects*/
+
+-Finish Printing Demoin Figure
+-Make Dice
+-Make a Pendant
+-3D Terrian for Tabletop Games
+-Make my new Logo (Cogs of RA)
+-Make a pen w/Brandon
+-Stream Art and Modeling 
+-Stream Spellbreak
+-Work on Codex
+-Work on Fade
+-Work on Ogethel
+-Order 3D printing supplies(including)
+{
+	Flush Clippers
+	UV Curing light
+	Turntable
+	Paints 
+	Resin?
+	Mold makeing Supplies?
+}
+
+-Make a piece of Jewelry(Including)
+{
+	Sketch
+	3D Modeling
+	Optimize for 3D Printing
+	Send to Shapeways(to then), buy, then resell Or
+	{
+		Buy to have them print
+		And Resell on Etsy
+		Or(If I Do it)
+		{
+			Print myself
+			Clean Model
+			Make a mold 
+			Make Wax Copy
+			Make Wax Tree
+			Cast Wax Tree myself or Take to a Jeweler to do that
+			Have a Jeweler cast it
+			Clean up 
+			Mount Gems (if any)
+			Sell on etsy
+		}
+	}
+}
+
+/*Home*/
+
+-call about the blinds
+
+/*Job*/
+
+-Finish Resume
+-Send to Will's Job
+-Send to Walmart?
+
+/*Religion*/
+
+-Schedule Endowment Session
+-Schedule Sealing Date
+
+
+
+
+
+
+
+
+
