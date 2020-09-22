@@ -4,12 +4,12 @@ My To Do list (In code :D)
 /*Assignments Presently in Focus*/
 
 -Interview with Advisor for next few semesters
--Get the Pitch Document together for Forensics {Friday Sept. 18th}
--Code a Calculator(It needs to be able to) {Monday Sept. 21st}
+[X]-Get the Pitch Document together for Forensics {Friday Sept. 18th}
+[X]-Code a Calculator(It needs to be able to) {Monday Sept. 21st}
 -Render & Model Sid's Toy {Close to Oct 8th}
--Read Page 44-66 {Sunday Sept 20th}
--Assignment: Building a Requirements Sheet {Sunday Sept. 20th}
--call about the blinds
+[X]-Read Page 44-66 {Sunday Sept 20th}
+[X]-Assignment: Building a Requirements Sheet {Sunday Sept. 20th}
+[X]-call about the blinds
 -Finish Resume
 -Send to Will's Job
 -Send to Walmart?
@@ -19,10 +19,10 @@ My To Do list (In code :D)
 School UVU
 
 Marty
--Get the Pitch Document together for Forensics {Friday Sept. 18th}
+[X]-Get the Pitch Document together for Forensics {Friday Sept. 18th}
 
 Clayton
--Code a Calculator(It needs to be able to) {Monday Sept. 21st}
+[X]-Code a Calculator(It needs to be able to) {Monday Sept. 21st}
 {
 	-Sum
 	-Difference
@@ -41,8 +41,8 @@ Rodayne
 
 Project Management
 
--Read Page 44-66 {Sunday Sept 20th}
--Assignment: Building a Requirements Sheet {Sunday Sept. 20th}
+[X]-Read Page 44-66 {Sunday Sept 20th}
+[X]-Assignment: Building a Requirements Sheet {Sunday Sept. 20th}
 //Week 5
 -Assignment: Create a Proposal {Sep 27}
 -Quiz: Requirements and Helping Meet the Client's Goals {Sep 27th}
