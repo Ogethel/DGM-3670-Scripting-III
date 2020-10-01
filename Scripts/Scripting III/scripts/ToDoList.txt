@@ -4,12 +4,9 @@ My To Do list (In code :D)
 /*Assignments Presently in Focus*/
 
 -Interview with Advisor for next few semesters
-[X]-Get the Pitch Document together for Forensics {Friday Sept. 18th}
-[X]-Code a Calculator(It needs to be able to) {Monday Sept. 21st}
+-Model(Forensic Tools)
 -Render & Model Sid's Toy {Close to Oct 8th}
-[X]-Read Page 44-66 {Sunday Sept 20th}
-[X]-Assignment: Building a Requirements Sheet {Sunday Sept. 20th}
-[X]-call about the blinds
+-Add on to Calculator: Make it callable from a main function and return results
 -Finish Resume
 -Send to Will's Job
 -Send to Walmart?
@@ -20,8 +17,19 @@ School UVU
 
 Marty
 [X]-Get the Pitch Document together for Forensics {Friday Sept. 18th}
+Model(Forensic Tools)
+{
+	dentist concrete
+	amido black spray
+	blue star spray
+	orange/ red/ yellow glasses
+	secondary light source (for UV, green, blue)
+	normal flash light for oblique lighting
+	fingerprint lift paper
+}
 
 Clayton
+-Add on to Calculator: Make it callable from a main function and return results
 [X]-Code a Calculator(It needs to be able to) {Monday Sept. 21st}
 {
 	-Sum
@@ -36,21 +44,17 @@ Clayton
 
 Rodayne
 -Render & Model Sid's Toy {Close to Oct 8th}
+-Make Background Story and Character Development 
 -Do some Thumbnails to add to my submission for "Character Design: Thumbnails, Background Story, Finished Rough, Color Studies" {Overdue}
 -Disney Essay {Oct 1st}
 
 Project Management
 
-[X]-Read Page 44-66 {Sunday Sept 20th}
-[X]-Assignment: Building a Requirements Sheet {Sunday Sept. 20th}
-//Week 5
--Assignment: Create a Proposal {Sep 27}
--Quiz: Requirements and Helping Meet the Client's Goals {Sep 27th}
--Discussion: Master Presenters {Sep 27th}
+-Discussion: Master Presenters {Sep 27th} (Overdue) 
 //Week 6
 -Assignment: Write 3 Beautiful Emails {Oct 4th}
 -Readings: Pages 194-211 (all of Chapter 10) {Oct 4th}
--Discussion: Email Etiquette {Oct 4th}
+
 -Quiz: Email and Not Being "That Person" {Oct 4th}
 //Week 7 
 -Assignment: Empathy {Oct 11th}
@@ -91,19 +95,19 @@ Project Management
 -Make a Pendant
 -3D Terrian for Tabletop Games
 -Make my new Logo (Cogs of RA)
--Make a pen w/Brandon
+[X]-Make a pen w/Brandon
 -Stream Art and Modeling 
 -Stream Spellbreak
 -Work on Codex
 -Work on Fade
 -Work on Ogethel
--Order 3D printing supplies(including)
+[X]-Order 3D printing supplies(including)
 {
-	Flush Clippers
-	UV Curing light
-	Turntable
+	[X]Flush Clippers
+	[X]UV Curing light
+	[X]Turntable
 	Paints 
-	Resin?
+	[X]Resin?
 	Mold makeing Supplies?
 }
 
@@ -134,7 +138,7 @@ Project Management
 
 /*Home*/
 
--call about the blinds
+[X]-call about the blinds
 
 /*Job*/
 
@@ -148,10 +152,22 @@ Project Management
 -Schedule Sealing Date
 
 
+/*Finished Tasks*/
 
+[X]-Get the Pitch Document together for Forensics {Friday Sept. 18th}
+[X]-Code a Calculator(It needs to be able to) {Monday Sept. 21st}
+[X]-Read Page 44-66 {Sunday Sept 20th}
+[X]-Assignment: Building a Requirements Sheet {Sunday Sept. 20th}
+[X]-call about the blinds
 
-
-
+//Week 4
+[X]-Read Page 44-66 {Sunday Sept 20th}
+[X]-Assignment: Building a Requirements Sheet {Sunday Sept. 20th}
+//Week 5
+[X]-Assignment: Create a Proposal {Sep 27}
+[X]-Quiz: Requirements and Helping Meet the Client's Goals {Sep 27th}
+//Week 6
+[X]-Discussion: Email Etiquette {Oct 4th}
 
 
 

@@ -1,0 +1,64 @@
+source math
+
+global proc Calculator(float $numbers[], string) $operation)
+{
+		//$numbers = [4,6,23,4]
+		
+		Addition($numbers);
+
+	return Addition($numbers);
+
+
+
+
+}
+
+
+Calculator({4,6,23,4}), "add")
+
+
+proc Addition(float $input[])
+{
+
+}
+
+global proc Subtraction()
+{
+
+}
+
+global proc Multiplication()
+{
+
+}
+//Moved to maya
+""
+proc float Add(float $nums[])
+{
+	float $nums[] = {3,4,5,6,7,8};
+	float $sum;
+	
+	string $operation = "";
+	
+	for ($n in $nums)
+	{
+		$sum += $n;
+		
+		if ($operation == "")
+		{
+			$operation = $n;
+		}
+		else
+		{
+			$operation = $operation + " + " + $n;
+		}
+	}
+	
+	$operation = ($operation + " = " )
+	
+	return $sum;
+}
+
+Add({2,3,4,5,6,7,8});
+
+

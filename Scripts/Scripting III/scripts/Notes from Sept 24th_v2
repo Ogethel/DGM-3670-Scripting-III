@@ -1,0 +1,12 @@
+Calculator(array of numbers, operation type)
+	-operations: Addition, Subtraction, Multiplication, Division, Power, Mean, Mode, Median.
+	
+	if operation type is "add"
+		-call function Adddition(Numbers[])
+	else if operation type is "Mean"
+		-call funciton Mean(numbers[])
+	else if operation type is "Mode"
+		-call funciton Mode(numbers[])
+	*
+	*
+	*

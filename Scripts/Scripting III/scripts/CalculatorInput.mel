@@ -1,0 +1,68 @@
+//Mel Calculator
+source MathFunctions;
+
+global proc float Calculator(float $numbers[], string $operation)
+{
+	float $returnVal = 0;
+	
+	if($operation == "Addition")
+	{
+		$returnVal = Addition($numbers);
+	}
+	else if($operation == "Subtract")
+	{
+		$returnVal = Subtract($numbers);
+		//The first number you enter will be what you subtract from, after that it is straight subtraction
+	}
+	else if($operation == "Multiply")
+	{
+		$returnVal = Multiply($numbers);
+	}
+	else if($operation == "Divide")
+	{
+		$returnVal = Divide($numbers);
+		//The first number you enter will be what you Divide into, after that it is straight division
+	}
+	else if($operation == "Power")
+	{
+		$returnVal = Power($numbers);
+		//This function requires you to enter an even array.
+		//Each pair of numbers will be treated as a single power request
+		//ie. (2,5,3,6) would be treated as: 2 raised to the 5th power and 3 raised to the 6th power and each result will be printed, however, only the product of the last number pair will be returned by the function
+	}
+	else if($operation == "Average")
+	{
+		$returnVal = Average($numbers);
+	}
+	else if($operation == "Mode")
+	{
+		$returnVal = Mode($numbers);
+	}
+	else if($operation == "Median")
+	{
+		$returnVal = Median($numbers);
+	}
+	else if($operation == "")
+	{
+	    $returnVal = 1;
+	    print("Value Error, please enter again");
+	}
+	
+	return $returnVal;
+}
+
+/*
+To use the Calculator function in this script, Make sure that you have both this script and the script "MathFunctions" avaliable to Maya
+If you get no errors loading the above code into maya, simply enter your desired array of numbers into the Calculator Function Call below, followed by your perfered operation and highlight and hit alt + enter
+There are special notes for a few of the opperations so refer to comments (found in the code above for specific functions) in the case of confusion
+*/
+
+Calculator({1,2,3,4,2,5}, "Divide");
+
+
+
+
+
+
+
+

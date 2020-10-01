@@ -1,0 +1,253 @@
+//Mel Calculator
+source MathFunctions;
+
+Calculator({1,2,3,4,2,5}, "Subtraction");
+
+global proc float Calculator(float $numbers[], string $operation)
+{
+	float $returnVal = 0;
+	
+	if($operation == "Addition")
+	{
+		$returnVal = Addition($numbers);
+	}
+	else if($operation == "Subtraction")
+	{
+		$returnVal = Subtraction($numbers);
+	}
+	else if($operation == "Multiply")
+	{
+		$returnVal = Multiply($numbers);
+	}
+	else if($operation == "Divide")
+	{
+		$returnVal = Divide($numbers);
+	}
+	else if($operation == "Power")
+	{
+		$returnVal = Power($numbers);
+	}
+	else if($operation == "Average")
+	{
+		$returnVal = Average($numbers);
+	}
+	else if($operation == "Mode")
+	{
+		$returnVal = Mode($numbers);
+	}
+	else if($operation == "Median")
+	{
+		$returnVal = Median($numbers);
+	}
+	else if($operation == "")
+	{
+	    $returnVal = 1;
+	    print("Value Error, please enter again");
+	}
+	
+	return $returnVal;
+}
+
+//Addition Function
+
+global proc float Addition(float $numbers[]) //3,5,2
+{
+	float $sum = 0;
+	
+	string $increment = "";
+	
+	for($i=0; $i<size($numbers); $i++)//Powers could be represented using a for loop
+	{
+		$sum += $numbers[$i]; //Sum becomes 3, then 8, then
+		
+		if ($increment == "")
+		{
+			$increment = $numbers[$i];
+		}
+		else
+		{
+			$increment = $increment + " + " + $numbers[$i];
+		}
+	}
+	
+	$increment = $increment + " = ";
+	
+	print($increment + $sum);
+	
+	return $sum;
+}
+
+//Add({2,35,34,23,5,31,35,6,3});
+//Addition({1.2, 23, 4});
+//int $something = Addition({2,35,34,23,5,31,35,6,3});
+//print $something;
+
+//Subtraction Function
+
+global proc float Subtraction(float $numbers[]) //3,5,2
+{
+	float $diff = $numbers[0];
+	
+	for($i=1; $i<size($numbers); $i++)//Powers could be represented using a for loop
+	{
+		$diff -= $numbers[$i]; //Sum becomes 3, then 8, then
+	}
+	return $diff;
+}
+
+//Enter first the number you wish to have subtracted, and then the number(s) you would like it to be subtracted by.
+
+//Subtraction({100, 20, 49});
+
+//Multiplication Function
+
+global proc float Multiply(float $numbers[]) //3,5,2
+{
+	float $product = 1;
+	
+	for($i=0; $i<size($numbers); $i++)//Powers could be represented using a for loop
+	{
+		$product *= $numbers[$i]; //Sum becomes 3, then 8, then
+	}
+	return $product;
+}
+
+//Multiply({5, 5, 5});
+
+//Division Function
+
+global proc float Divide(float $numbers[]) //3,5,2
+{
+	float $rem = $numbers[0];
+	
+	for($i=1; $i<size($numbers); $i++)//Powers could be represented using a for loop
+	{
+		$rem /= $numbers[$i]; //Sum becomes 3, then 8, then
+	}
+	return $rem;
+}
+
+//Enter first the number you wish to have divided, and then the number you would like it to be divided by.
+
+//Divide({49, 7});
+
+//Power Function
+
+global proc float Power(float $numbers[])
+{
+    int $pairNum = 1;
+    int $arySize=size($numbers);
+    //int $newArraySize = $arySize/2;
+    
+	float $product = 0;
+    //int $newArray[$newArraySize];
+	
+	
+	for($i=0; $i<size($numbers); $i++)
+	{
+	    
+	    //int $aryPos = 0;
+		$product = $numbers[$i];
+		float $j = 1;
+		float $tempPower = $numbers[$i + 1];
+		while($j<$tempPower)
+		{
+			$product = $product * $numbers[$i];
+			print($product + "\n");
+			$j++;
+		}
+		
+		print("This is the product for number pair " + $pairNum + " " + $product + "\n");
+		//$newArray[$aryPos]=$product;
+		//$aryPos++;
+		$pairNum = ($pairNum + 1);
+		$i++;
+	}
+	
+	return $product;
+}
+//Must be an even list
+//Power({3, 5, 2, 4});
+
+//Average/Mean Function
+
+global proc float Average(float $numbers[])
+{
+	float $product = $numbers[0];
+
+	int $arySize=size($numbers);
+	
+	for($i=0; $i<size($numbers); $i++)
+	{
+		$product += $numbers[$i]; 
+	}
+	
+	$product = $product/$arySize;
+	
+	return $product;
+}
+
+//Average({5, 5, 3, 2, 10, 14});
+
+//Mode Function
+
+global proc float Mode(float $numbers[])
+{
+	$numbers = `sort $numbers`;
+	
+	float $solvedNum=0;
+	int $solvedCount=0;
+	
+	for($i=0; $i<size($numbers); $i++)
+	{
+		float $tempNum = $numbers[$i];
+		int $tempCount = 0;
+		for($j=0; $j<size($numbers); $j++)
+		{
+			if($numbers[$j] == $tempNum)
+			{
+				$tempCount++;
+			}
+		}
+		if ($tempCount>$solvedCount)
+		{
+			$solvedNum = $tempNum;
+			$solvedCount = $tempCount;
+		}
+	}
+	print("The most frequent element is: " + $solvedNum + ". At frequency " + $solvedCount);
+	return $solvedNum;
+}
+
+//Mode({3,2,3,4,5,6,3,3,4,5,6,4,2,34,5,6,7,3});
+
+//Median Function
+
+global proc float Median(float $numbers[])
+{
+    $numbers = `sort $numbers`;
+	int $aryMedi = size($numbers);
+	print($aryMedi);
+	print($numbers);
+	
+	if(size($numbers)%2 == 0)
+	{
+	    print("even\n");
+		$aryMedi = $aryMedi/2;
+		int $truAryMedi = $aryMedi - 1;
+		float $mediAct = (($numbers[$truAryMedi] + $numbers[$aryMedi]) / 2);
+		return $mediAct;
+	}
+	else
+	{
+	    $aryMedi = (size($numbers) - 1);
+	    print("odd\n");
+		$aryMedi = (($aryMedi + 1)/2);
+		print($aryMedi);
+		return $numbers[$aryMedi];
+	}
+}
+
+//Median({5, 6, 3, 2, 10, 14});
+
+
