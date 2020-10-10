@@ -1,0 +1,10 @@
+string $objectArray[];
+int $color;
+$objectArray = `ls -sl`;
+
+for ($object in $objectArray)
+{
+	setAttr "object.overrideEnabled" 1;
+	string $shapNode[] = listRelatives -shape $objectArray;
+	setAttr ($shapeNode[0] + ".outlinerColor") ($color);
+}
