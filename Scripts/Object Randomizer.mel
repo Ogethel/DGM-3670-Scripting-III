@@ -1,0 +1,48 @@
+proc string randPlacement(string $selectedList[])
+{
+    string $selectedList[] = `ls -sl`;
+    string $currentObject;
+    
+    int $numOfDup = 10;
+    float $minX, $maxX;
+    float $minY, $maxY;
+    float $minZ, $maxZ;
+
+    for ($currentObject in $selectedList)
+    {
+    setAttr ($currentObject + ".translateX") (rand(-10,10));
+    setAttr ($currentObject + ".translateY") (rand(-10,10));
+    setAttr ($currentObject + ".translateZ") (rand(-10,10));
+    }
+}
+
+for($s in $selectedList)
+
+//Duplicates
+for ($i=0; #numOfDuplicates; $i++)
+    {
+        //duplicatte current object: duplicate -rr
+        float $rand
+        
+    } 
+    }
+
+}
+
+float $random = `rand -10 10`;
+print ("/nFloat: " + $random);
+$random = `trunc($random)`;
+print ("/nTrunc: " + $random);
+
+string $selectedList[] = `ls -sl`;
+string $currentObject;
+
+for ($currentObject in $selectedList)
+{
+setAttr ($currentObject + ".translateX") (rand(-10,10));
+setAttr ($currentObject + ".translateY") (rand(-10,10));
+setAttr ($currentObject + ".translateZ") (rand(-10,10));
+}
+
+////change the values in the rand section to determine
+////the min and max values your objects can go 
