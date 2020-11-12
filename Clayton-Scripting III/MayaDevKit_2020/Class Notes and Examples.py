@@ -1,6 +1,15 @@
 import maya.cmds as cmds
 import random
 
+# Class Examples from November 5th, 2020
+
+my_string = 'le#g_##_Jnt'
+('Leg_', '#', '_Jnt')
+
+print(my_string.rpartition('#'))
+
+help(zfill)
+
 # Class Examples from October 29th, 2020
 
 # Assignment: Redo the random generator in python

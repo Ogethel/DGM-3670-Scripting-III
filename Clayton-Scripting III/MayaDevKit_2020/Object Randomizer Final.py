@@ -13,12 +13,12 @@ def objectRand(dupNum=5, minX=10, maxX=10, minY=10, maxY=10, minZ=10, maxZ=10):
     for x in range(0, dupNum):
         dupedObjs = cmds.duplicate(selsObjs)
         allDupedObjs.extend(dupedObjs)
-        print x
+
 
     for i in allDupedObjs:
         cmds.select(i)
         cmds.move(random.uniform(minX, maxX), random.uniform(minY, maxY), random.uniform(minZ, maxZ))
-        print i
+
         # cmds.parent(dupedObjs[0], insGroupName)
 
     cmds.hide(selsObjs)
