@@ -50,32 +50,33 @@ all_names = []
 # Global
 
 
-import maya.cmds as cmds
-
-
 def rename_func(str_to_replace):
     cur_sels = cmds.ls(sl=True)
-    all_objects = []
+
     start_string = str_to_replace
     num_padding = start_string.count('#')
+
+    seq_num = 1
 
     for s in cur_sels:
         str_sections = start_string.partition('#' * num_padding)
         if str_sections[1]:
             print
             'Characters are all sequential'
-            changed_string = start_string.replace('#' * num_padding, ('0' * (num_padding - 1) + '1'))
-            return changed_string
-        else:
+            temp_num = seq_num
+            changed_string = start_string.replace('#' * num_padding, ('0' * (num_padding - 1) + str(temp_num)))
+            cmds.rename(s, changed_string)
+            seq_num = seq_num + 1
             print
-            'Characters are not sequential'
-            for i in range(num_padding - 1, 0, -1):
-                if str_sections[1]:
-                    changed_string = start_string.replace('#' * num_padding, ('0' * (num_padding - i - 1) + '1'))
-                    return changed_string
+            changed_string
+            else:
+            print
+            'Characters are not sequential, please enter another string'
+
+    return changed_string
 
 
-rename_func('L_Arm_##_joint_##')
+rename_func('L_Arm_##_joint')
 
 
 # Bread crumbs from Clayton
