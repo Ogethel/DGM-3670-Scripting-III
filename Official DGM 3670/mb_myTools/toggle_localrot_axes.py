@@ -11,3 +11,4 @@ def toggle_attr():
         cmds.setAttr(i + ".jointOrientY", k=True)
         cmds.setAttr(i + ".jointOrientZ", k=True)
 
+        cmds.toggle(i, la=True)

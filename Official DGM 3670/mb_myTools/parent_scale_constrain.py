@@ -15,3 +15,4 @@ def parent_constrain():
     for i in range(0, sels_count, 2):
         # print 'I want to constrain sels %s to %s' % (sels[i+1], sels[i])
         cmds.parentConstraint(sels[i+1], sels[i], maintainOffset=False)
+        cmds.scaleConstraint(sels[i + 1], sels[i], maintainOffset=False)
