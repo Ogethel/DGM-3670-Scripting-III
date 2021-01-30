@@ -19,6 +19,8 @@ class ToolboxUI():
         cmds.button(parent=self.col_layout, label='Parent Group', c=lambda *x: self.call_parent_group())
         cmds.button(parent=self.col_layout, label='Parent Constrain', c=lambda *x: self.call_parent_constrain())
         cmds.button(parent=self.col_layout, label='Show Attributes', c=lambda *x: self.call_show_atter())
+        cmds.button(parent=self.col_layout, label='Create Locator', c=lambda *x: self.call_create_locator())
+        cmds.button(parent=self.col_layout, label='Create Joint', c=lambda *x: self.call_create_jnt())
 
         cmds.showWindow(self.my_window)
 
@@ -61,6 +63,18 @@ class ToolboxUI():
         reload(toggle_localrot_axes)
         tla_instance = toggle_localrot_axes.toggle_attr()
         tla_instance()
+
+    def call_create_jnt(self):
+        import create_joint
+        reload(create_joint)
+        cj_instance = create_joint.CreateJoint()
+        cj_instance.CreateJoints()
+
+    def call_create_locator(self):
+        import create_locator
+        reload(create_locator)
+        ccl_instance = create_locator.create_loc()
+        ccl_instance()
 
 
 
